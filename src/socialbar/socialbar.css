@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.68);
+    background-color: #b71c1c;
     border-radius: 10px;
     position: fixed;
     z-index: 2;
@@ -34,3 +34,8 @@
     background-image: url('../assets/images/LinkedIn.svg');  
 }
 
+@media only screen and (max-width: 992px){
+    .social-bar{
+        display: none;
+    }
+}

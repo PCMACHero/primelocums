@@ -15,7 +15,7 @@ export default class HomePage extends React.Component{
                             <div className="hp-btn btn-large red darken-3">Clients</div>
                             
                         </div>
-                        <h4>Your search ends here</h4>
+                        <h4 className="hp-subtext">Your search ends here</h4>
                         <div className="stretch"></div>
                     </div>
                     <div className="hp-sec2">
