@@ -1,26 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {BrowserRouter, Route, Link} from 'react-router-dom'
 import './App.css';
+import 'materialize-css/dist/css/materialize.css'
+import HomePage from './homepage/homepage';
+
 
 class App extends Component {
+  linkFontStyle={color:"black"}
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter>
+        <React.Fragment>
+          <nav>
+            <div className="nav-wrapper white">
+              <a href="#" className="brand-logo"><div className="logo"></div></a>
+              {/* <div className="logo">hello</div> */}
+              <ul id="nav-mobile" className="right hide-on-med-and-down blue-text">
+                <li><Link to="/"><div style={this.linkFontStyle}>Home</div></Link></li>
+                <li><Link to="/about"><div style={this.linkFontStyle}>About</div></Link></li>
+                <li><Link to="/clients"><div style={this.linkFontStyle}>Clients</div></Link></li>
+                <li><Link to="/clients"><div style={this.linkFontStyle}>Contact Us</div></Link></li>
+              </ul>
+            </div>
+          </nav>
+          <Route path="/" exact component={HomePage}/>
+        </React.Fragment>
+      </BrowserRouter>
     );
   }
 }
