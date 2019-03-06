@@ -1,0 +1,31 @@
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cl-sec1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vw;
+    min-width: 100vw;
+    background: 
+    /* linear-gradient(to right,
+      rgba(36, 36, 36, 0.522), 
+      rgba(63, 30, 30, 0.5)
+    ), */
+    
+    url('../assets/images/cl-bg.jpeg');
+
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.cl-title-box{
+    width: 80%;
+    text-align: center;
+}

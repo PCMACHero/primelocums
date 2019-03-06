@@ -36,9 +36,10 @@ font-family: 'Heebo', sans-serif; */
       rgba(191, 0, 255, 0.241)
     ), */
     
-    url('../assets/images/hp-bg.jpeg');
+    url('../assets/images/hp-bg9.jpeg');
 
     background-size: cover;
+    background-position: center;
     
 }
 

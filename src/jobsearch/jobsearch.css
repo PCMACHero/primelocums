@@ -1,0 +1,32 @@
+.drop-down-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(63, 63, 63);
+    color: rgb(0, 228, 179);
+    text-align: center;
+}
+
+.drop-down-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    overflow: scroll;
+}
+
+.drop-down-item{
+    background-color: rgb(29, 29, 29);
+    border: .5px solid rgb(92, 92, 92);
+    border-radius: 2px;
+    width: 100%;
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
