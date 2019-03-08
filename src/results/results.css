@@ -1,0 +1,35 @@
+.post{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 150px;
+    border: 1px solid green;
+}
+
+.post-and-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    border: 1px solid red;
+}
+
+.post-title{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 30px;
+}
+.short-description{
+    display: flex;
+    align-items: center;
+    border: 1px solid yellow;
+    height: 80px;
+    width: 580px;
+    
+    overflow: hidden;
+    
+}
+

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom'
 import './App.css';
-import 'materialize-css/dist/css/materialize.css'
+import 'materialize-css/dist/css/materialize.min.css'
 import HomePage from './homepage/homepage';
 import Clients from './clients/clients';
 import JobSearch from './jobsearch/jobsearch';

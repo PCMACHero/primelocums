@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 300px;
     height: 50px;
     background-color: rgb(63, 63, 63);
     color: rgb(0, 228, 179);
@@ -10,23 +10,197 @@
 }
 
 .drop-down-list{
+    animation: dropdown 1s forwards;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: center;
-    height: 300px;
-    width: 200px;
-    background-color: aqua;
-    overflow: scroll;
+    height: 200px;
+    
+    width: 300px;
+    /* background-color: aqua; */
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .drop-down-item{
-    background-color: rgb(29, 29, 29);
-    border: .5px solid rgb(92, 92, 92);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 107, 107);
+    border: .5px solid rgb(87, 87, 87);
     border-radius: 2px;
-    width: 100%;
+    width: 350px;
     color:white;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    height: 40px;
+    flex-shrink: 0;
+    /* margin: 3px; */
+    padding: 0px 4px;
+    
+}
+
+.item-selected{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 167, 233);
+    border: .5px solid rgb(124, 124, 124);
+    border-radius: 10px;
+    width: 180px;
+    color:white;
+    height: 50px;
+    flex-shrink: 0;
+    /* margin: 3px; */
+    padding: 0px 4px;
+    
+}
+.js-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title-box{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: calc(100vh - 64px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background:
+    linear-gradient(rgba(255, 255, 255, 0.466),rgba(0, 110, 255, 0.39)),
+    url('../assets/images/hp-bg8.jpeg')
+}
+
+.checkbox-box{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 300px;
+}
+
+.search-checkbox{
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 100%;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .01pt solid rgb(255, 0, 0);
+    flex-shrink: 0;
+}
+
+.search-btn{
+    width: 125px;
+    height: 50px;
+    background-color: rgb(0, 196, 59);
+    border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
+.hide-slow{
+    animation: hideslow 1s forwards;
+}
+
+.left-half{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid pink;
+    height: 400px;
+}
+
+.large-selected-list{
+    display: flex;
+    flex-flow: wrap;
+    flex-shrink: 0;
+    width: 380px;
+    height: 160px;
+    /* border: 1px solid orange; */
+    justify-content: center;
+    align-items: flex-start;
+}
+.large-search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,rgb(97, 139, 255),rgb(191, 230, 255));
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px black;
+    padding: 10px;
+}
+.large-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.596),rgba(255, 255, 255, 0.623)),
+    url('../assets/images/hp-bg5.jpeg')
+}
+
+.large-specialty-box{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    border: 15px solid rgba(22, 22, 22, 0.349);
+    /* padding-top: 15px; */
+    /* padding: 20px; */
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.671);
+    overflow-y: scroll;
+    height: 70vh;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .title-box{
+        display:flex;
+    }
+    .drop-down-item{
+        flex-shrink: 0;
+        margin: 0;
+        width: 300px;
+        padding: 0;
+        margin-bottom: -.5px;
+        margin-top: -.5px;
+    }
+    .large-search{
+        display: none;
+    }
+}
+
+
+@keyframes dropdown {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 200px
+    }
+}
+
+@keyframes hideslow {
+    from {
+        height:200px;
+    }
+    to {
+        height: 0px;
+        
+    }
 }

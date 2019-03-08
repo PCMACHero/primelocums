@@ -13,7 +13,8 @@ export default class HomePage extends React.Component{
                     <div className="hp-sec1">
                         <h1 id="hp-title"><span style={{color:"white"}}>PRIME</span> LOCUMS</h1>
                         <div className="hp-btn-container">
-                            <button className="hp-btn btn-large waves-effect waves-light red darken-3">Job Search</button>
+                            <Link to="/jobsearch"><button className="hp-btn btn-large waves-effect waves-light red darken-3">Job Search</button></Link>
+                            
                             <Link to="/clients"><div className="hp-btn btn-large red darken-3">Clients</div></Link>
                             
                         </div>
