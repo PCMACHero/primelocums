@@ -14,7 +14,7 @@ class App extends Component {
   linkFontStyle={color:"black"}
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <React.Fragment>
           <nav>
             <div className="nav-wrapper white">
