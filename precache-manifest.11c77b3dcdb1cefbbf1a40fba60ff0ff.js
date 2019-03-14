@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "22331012a3f15856d3b8ef54c2313187",
-    "url": "/primelocums/static/media/Twitter.22331012.svg"
+    "revision": "8fc7a048c95e3759caeaa7e5d0661c0a",
+    "url": "/primelocums/static/media/LinkedIn.8fc7a048.svg"
   },
   {
     "revision": "042ff1623b870f6800ca",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/primelocums/static/media/hp-bg9.b6665081.jpeg"
   },
   {
-    "revision": "8fc7a048c95e3759caeaa7e5d0661c0a",
-    "url": "/primelocums/static/media/LinkedIn.8fc7a048.svg"
+    "revision": "22331012a3f15856d3b8ef54c2313187",
+    "url": "/primelocums/static/media/Twitter.22331012.svg"
   },
   {
     "revision": "042ff1623b870f6800ca",
