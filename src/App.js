@@ -14,7 +14,7 @@ class App extends Component {
   linkFontStyle={color:"black"}
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={"/primelocums"}>
         <React.Fragment>
           <nav>
             <div className="nav-wrapper white">
@@ -30,7 +30,7 @@ class App extends Component {
               </ul>
             </div>
           </nav>
-          <Route path={`${process.env.PUBLIC_URL}/`} exact component={HomePage}/>
+          <Route path={`/`} exact component={HomePage}/>
           <Route path="/clients" exact component={Clients}/>
           <Route path="/jobsearch" exact component={JobSearch}/>
           <Route path="/about" exact component={About}/>
