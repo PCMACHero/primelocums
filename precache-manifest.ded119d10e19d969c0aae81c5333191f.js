@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/primelocums/static/media/cl-bg.4bc80425.jpeg"
   },
   {
-    "revision": "d79bba4b6f67cfa9acaebda9e643a910",
-    "url": "/primelocums/static/media/hp-bg5.d79bba4b.jpeg"
-  },
-  {
     "revision": "3cfd5bb42bd093b3771d84bd1dda0144",
     "url": "/primelocums/static/media/hp-bg8.3cfd5bb4.jpeg"
   },
   {
     "revision": "79fc0c8cb06e46f724c677f68ffa4449",
     "url": "/primelocums/static/media/hp-bg6.79fc0c8c.jpeg"
+  },
+  {
+    "revision": "d79bba4b6f67cfa9acaebda9e643a910",
+    "url": "/primelocums/static/media/hp-bg5.d79bba4b.jpeg"
   },
   {
     "revision": "89f1fbf31e1e12b80da9",
