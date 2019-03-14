@@ -169,6 +169,12 @@
 }
 
 @media only screen and (max-width: 600px){
+    .search-box{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .title-box{
         display:flex;
     }
@@ -204,3 +210,26 @@
         
     }
 }
+
+.job-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background: 
+    linear-gradient(rgba(0, 5, 71, 0.527),rgba(0, 0, 0, 0.5)),
+    url('../assets/images/hp-bg6.jpeg');
+    
+}
+
+.search-box{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.445);
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
