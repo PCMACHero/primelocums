@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "f8f76b60ed73f091a6b856cdb1346a91",
-    "url": "/primelocums/static/media/Facebook.f8f76b60.svg"
+    "revision": "22331012a3f15856d3b8ef54c2313187",
+    "url": "/primelocums/static/media/Twitter.22331012.svg"
   },
   {
     "revision": "042ff1623b870f6800ca",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/primelocums/static/media/hp-bg9.b6665081.jpeg"
   },
   {
-    "revision": "22331012a3f15856d3b8ef54c2313187",
-    "url": "/primelocums/static/media/Twitter.22331012.svg"
+    "revision": "f8f76b60ed73f091a6b856cdb1346a91",
+    "url": "/primelocums/static/media/Facebook.f8f76b60.svg"
   },
   {
     "revision": "042ff1623b870f6800ca",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/primelocums/static/media/cl-bg.4bc80425.jpeg"
   },
   {
-    "revision": "79fc0c8cb06e46f724c677f68ffa4449",
-    "url": "/primelocums/static/media/hp-bg6.79fc0c8c.jpeg"
-  },
-  {
     "revision": "d79bba4b6f67cfa9acaebda9e643a910",
     "url": "/primelocums/static/media/hp-bg5.d79bba4b.jpeg"
+  },
+  {
+    "revision": "79fc0c8cb06e46f724c677f68ffa4449",
+    "url": "/primelocums/static/media/hp-bg6.79fc0c8c.jpeg"
   },
   {
     "revision": "3cfd5bb42bd093b3771d84bd1dda0144",
