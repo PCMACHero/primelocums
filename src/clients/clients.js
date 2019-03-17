@@ -1,6 +1,6 @@
-import React from 'react'
-import {Dropdown, Form, Button, TextArea} from 'semantic-ui-react'
-import './clients.css'
+import React from 'react';
+import {Dropdown, Form, Button, TextArea} from 'semantic-ui-react';
+import './clients.css';
 import { isDate } from 'util';
 
 export default class Clients extends React.Component{
