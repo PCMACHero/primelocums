@@ -196,7 +196,7 @@ export default class Clients extends React.Component{
 	<li>Pediatric Critical Care </li>
 	<li>Perinatology / Maternal Fetal Medicine </li>
 	<li>Plastic Surgery </li>
-	<li>PM & R </li>
+	<li>{"PM & R "}</li>
 	<li>Pulmonology </li>
 	<li>Psychiatry </li>
 	<li>Radiology </li>
