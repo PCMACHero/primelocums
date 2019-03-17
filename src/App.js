@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom'
 import './App.css';
-import 'materialize-css/dist/css/materialize.min.css'
+// import 'materialize-css/dist/css/materialize.min.css'
 import HomePage from './homepage/homepage';
 import Clients from './clients/clients';
 import JobSearch from './jobsearch/jobsearch';
@@ -11,14 +11,14 @@ import LocumTenens from './locumtenens/locumtenens';
 
 
 class App extends Component {
-  linkFontStyle={color:"black"}
+  linkFontStyle={padding:"0px 15px", display: "flex", alignItems:"center",justifyContent:"center", height:"64px", color:"black"}
   render() {
     return (
       <BrowserRouter basename={"/primelocums"}>
         <React.Fragment>
           <nav>
-            <div className="nav-wrapper white">
-              <a href="#" className="brand-logo"><div className="logo"></div></a>
+            <div className="nav-wrapper">
+              <Link to="/" className="brand-logo"><div className="logo"></div></Link>
               {/* <div className="logo">hello</div> */}
               <ul id="nav-mobile" className="right hide-on-med-and-down blue-text">
                 <li><Link to="/"><div style={this.linkFontStyle}>Home</div></Link></li>

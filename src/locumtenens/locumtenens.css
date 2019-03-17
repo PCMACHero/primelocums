@@ -7,6 +7,109 @@
 .lt-form{
     display: flex;
     width: 600px;
+    
     flex-flow: column;
     margin: 100px;
 }
+
+.lt-title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 30px 10px;
+    width: 90%;
+    background-image: linear-gradient(to  right,rgb(114, 0, 0), rgb(216, 40, 40),rgb(99, 18, 0))
+}
+
+.lt-subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background-image: linear-gradient(to  right,rgb(0, 211, 179), rgb(0, 224, 249),rgb(126, 255, 177));
+    padding: 20px;
+
+}
+.lt-subtitle2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    width: 90%;
+    
+
+}
+
+.lt-sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: 
+    url('../assets/images/hp-bg7.jpeg');
+    height: 500px;
+    width: 100vw;
+
+}
+
+.locum-tenens{
+    background: linear-gradient(rgba(0, 79, 198, 0.42),rgba(255, 192, 203, 0.385));
+  
+}
+
+.lt-p{
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.lt-icon{
+    width: 74px;
+    height: 74px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.income{
+    background-image: url('../assets/images/tl-icons/030-bill.svg');
+    background-size: contain;
+}
+
+.refine{
+    background-image: url('../assets/images/tl-icons/026-target.svg');
+    background-size: contain;
+}
+
+.vacation{
+    background-image: url('../assets/images/tl-icons/046-success-1.svg');
+    background-size: contain;
+}
+
+.retirement{
+    background-image: url('../assets/images/tl-icons/027-calendar.svg');
+    background-size: contain;
+}
+
+.transitional{
+    background-image: url('../assets/images/tl-icons/007-briefcase.svg');
+    background-size: contain;
+}
+
+.burnout{
+    background-image: url('../assets/images/tl-icons/021-employee-1.svg');
+    background-size: contain;
+}
+
+@media only screen and (max-width: 700px) {
+    .lt-form{
+        width: 90%;
+    }
+    .lt-sec1{
+        background-position: center;
+        height: 700px;
+        background-image: linear-gradient(rgb(255, 255, 255),rgb(59, 0, 118));
+    }
+  }

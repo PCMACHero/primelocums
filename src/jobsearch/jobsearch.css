@@ -216,10 +216,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background: 
-    linear-gradient(rgba(0, 5, 71, 0.527),rgba(0, 0, 0, 0.5)),
-    url('../assets/images/hp-bg6.jpeg');
+    /* background-size: cover; */
+    min-height: 90vh;
+    
+    background:linear-gradient(rgba(0, 0, 255, 0.509),rgba(0, 195, 255, 0.522)),
+      url('../assets/images/hp-bg6.jpeg')   no-repeat  center ;
     
 }
 
