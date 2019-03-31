@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Route, Link} from 'react-router-dom'
+import {BrowserRouter, Route, Link, Redirect} from 'react-router-dom'
+import { Dropdown, Menu } from 'semantic-ui-react'
 import './App.css';
 // import 'materialize-css/dist/css/materialize.min.css'
 import HomePage from './homepage/homepage';
@@ -8,37 +9,70 @@ import JobSearch from './jobsearch/jobsearch';
 import About from './about/about';
 import Footer from './footer/footer';
 import LocumTenens from './locumtenens/locumtenens';
+import Departments from './clients/departments';
+import Faqs from './clients/faqs';
+import Nav from './nav/nav';
+import Contact from './contact/contact';
 
 
 class App extends Component {
-  linkFontStyle={padding:"0px 15px", display: "flex", alignItems:"center",justifyContent:"center", height:"64px", color:"black"}
+  state={
+    linkClick:null,
+    showClientTab:false,
+    clientRedirect: null,
+    dropDownOpen:false
+    
+  }
+  clientMenuOff=()=>{
+    this.setState({
+      clientRedirect:false
+    })
+  }
+  clientMenu=(e,d)=>{
+
+    console.log(d.text)
+    if(d.text==="Departments"){
+      this.setState({
+        clientRedirect:"departments",
+        dropDownOpen: false
+      })
+    } else if(d.text==="FAQs"){
+      this.setState({
+        clientRedirect:"faqs",
+        dropDownOpen: false
+      })
+    }
+    else if(d.text==="Clients"){
+      this.setState({
+        clientRedirect:"clients",
+        dropDownOpen: false
+      })
+    }
+    // this.setState({linkClick:d.text})
+
+  }
+  
+  
   render() {
+    
     return (
-      <BrowserRouter>
+     
         <React.Fragment>
-          <nav>
-            <div className="nav-wrapper">
-              <Link to="/" className="brand-logo"><div className="logo"></div></Link>
-              {/* <div className="logo">hello</div> */}
-              <ul id="nav-mobile" className="right hide-on-med-and-down blue-text">
-                <li><Link to="/"><div style={this.linkFontStyle}>Home</div></Link></li>
-                <li><Link to="/about"><div style={this.linkFontStyle}>About</div></Link></li>
-                <li><Link to="/locumtenens"><div style={this.linkFontStyle}>Locum Tenens</div></Link></li>
-                <li><Link to="/jobsearch"><div style={this.linkFontStyle}>Job Search</div></Link></li>
-                <li><Link to="/clients"><div style={this.linkFontStyle}>Clients</div></Link></li>
-                <li><Link to="/contact"><div style={this.linkFontStyle}>Contact Us</div></Link></li>
-              </ul>
-            </div>
-          </nav>
+          
+          <Nav clientMenu={this.clientMenu} clientMenuOff={this.clientMenuOff} isOpen={this.state.dropDownOpen}/>
+          {this.state.clientRedirect? <Redirect to={`/${this.state.clientRedirect}`} /> : null}
           <Route path={`/`} exact component={HomePage}/>
           <Route path="/clients" exact component={Clients}/>
           <Route path="/jobsearch" exact component={JobSearch}/>
           <Route path="/about" exact component={About}/>
           <Route path="/locumtenens" exact component={LocumTenens}/>
+          <Route path="/departments" exact component={Departments}/>
+          <Route path={`/faqs`} exact component={Faqs}/>
+          
+          <Route path={`/contact`} exact component={Contact}/>
 
           <Footer/>
         </React.Fragment>
-      </BrowserRouter>
     );
   }
 }

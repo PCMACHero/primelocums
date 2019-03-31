@@ -11,7 +11,7 @@ export default class HomePage extends React.Component{
                 <div className="homepage">
                     <SocialBar/>
                     <div className="hp-sec1">
-                        <h1 id="hp-title"><span style={{color:"white"}}>PRIME</span> LOCUMS</h1>
+                        <h1 id="hp-title" style={{color:"white"}}><span style={{color:"red"}}>PRIME</span > LOCUMS</h1>
                         <div className="hp-btn-container">
                             <Link to="/jobsearch"><button className="hp-btn">Job Search</button></Link>
                             

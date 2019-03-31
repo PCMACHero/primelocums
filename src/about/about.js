@@ -5,7 +5,7 @@ const About = ()=>{
     return (
         <div className="about">
             <div className="about-sec1">
-                <h1 className="about-title">ABOUT PRIME LOCUS</h1>
+                <h1 className="lt-title">ABOUT PRIME LOCUS</h1>
                 <p className="about-text flow-text">Prime Locums offers staffing 
                 solutions by finding the best medical providers for leading 
                 healthcare facilities. We are a smaller agency, which gives us 
@@ -54,11 +54,14 @@ const About = ()=>{
                 </div>
                  
             </div>
-            <h5 className="mission-title">MISSION STATEMENT</h5>
+            <div className="mission-statement">
+            <h2 className="mission-title">MISSION STATEMENT</h2>
             <p className="mission-text">
             Our mission is to staff innovative healthcare providers committed to providing 
             the highest level of patient care. 
             </p>
+            </div>
+            
             
 
         </div>

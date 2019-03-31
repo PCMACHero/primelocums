@@ -2,6 +2,7 @@ import React from 'react';
 import {Dropdown, Form, Button, TextArea} from 'semantic-ui-react';
 import './clients.css';
 import { isDate } from 'util';
+import Departments from './departments';
 
 export default class Clients extends React.Component{
     options=[
@@ -19,6 +20,7 @@ export default class Clients extends React.Component{
         duration:'',
         startDate:'',
         profession:[],
+        
     }
 
     handleInputChange=(e)=>{
@@ -35,6 +37,7 @@ export default class Clients extends React.Component{
     }
 
     render(){
+        
         return(
             <div className="clients">
                 <div className="cl-sec1">
@@ -154,94 +157,9 @@ export default class Clients extends React.Component{
                     
                 </Form>
                 
-                <h1>DEPARTMENTS</h1>
-                <h3 className="cl-subtitle">Prime Locums staff a wide range of medical providers including Physicians and Advance Practice Clinicians.
-                 Our specialties are below:</h3>
+                
 
-                 <ul className="departments-list">
-	<li>ABEM Emergency Medicine</li>
-	<li>Anesthesiology </li>
-	<li>Allergy and Immunology </li>
-	<li>Cardiology </li>
-	<li>Cardio-Thoracic </li>
-	<li>Cardiac Surgery</li>
-	<li>Critical Care </li>
-	<li>Colo-rectal Surgery</li>
-	<li>Dermatology </li>
-	<li>Emergency Medicine </li>
-	<li>Endocrinology </li>
-	<li>Family Practice </li>
-	<li>Gastroenterology </li>
-	<li>General Surgery </li>
-	<li>Gynecologic Oncology </li>
-	<li>Hematology </li>
-	<li>Hospitalist </li>
-	<li>Infectious Disease </li>
-	<li>Internal Medicine </li>
-	<li>Interventional Cardiology </li>
-	<li>Neonatology </li>
-	<li>Nephrology </li>
-	<li>Neurology </li>
-	<li>Neurosurgery </li>
-	<li>OB/GYN </li>
-	<li>Occupational Medicine</li>
-	<li>Oncology </li>
-	<li>Ophthalmology </li>
-	<li>Orthopedics </li>
-	<li>Orthopedic Trauma </li>
-	<li>Otolaryngology </li>
-	<li>Pathology </li>
-	<li>Pediatrics </li>
-	<li>Pediatric Surgery </li>
-	<li>Pediatric Critical Care </li>
-	<li>Perinatology / Maternal Fetal Medicine </li>
-	<li>Plastic Surgery </li>
-	<li>{"PM & R "}</li>
-	<li>Pulmonology </li>
-	<li>Psychiatry </li>
-	<li>Radiology </li>
-	<li>Reproductive Endocrinology and Infertility </li>
-	<li>Rheumatology </li>
-	<li>Thoracic Surgery</li>
-	<li>Trauma Surgery </li>
-	<li>Urgent Care </li>
-	<li>Urology</li>
-    <li>Vascular Surgery</li>
-    <li>...and more</li>
-</ul>
-
-                <h1>FAQs</h1>
-                <h3 className="cl-subtitle">Why do clients utilize Locum Tenens?</h3>
-                <p className="cl-faq-p">Several private practice clinics, hospitals, groups, 
-                and large healthcare systems are always needing help in staffing physicians, CRNAs, PAs, and NPs. 
-                Anytime a healthcare provider is on a long-term vacation or medical leave; Locum tenens provide a quick 
-                and effective solution.</p>
-
-                <h3 className="cl-subtitle">How can you assure high-quality candidates?</h3>
-                <p className="cl-faq-p">Our candidates are highly-qualified and vetted appropriately to Prime Locums standards. 
-                We also provide malpractice insurance on your behalf to help minimize any risk associated with our placements. 
-                Prime Locums utilize a comprehensive screening process to ensure the provider’s experience, and client’s requirements 
-                are a match. </p>
-
-                <h3 className="cl-subtitle">How do you verify locum tenens credentials and background?</h3>
-                <ul>
-                    <li>Primary Source Verifications</li>
-                    <li>AMA Profile, which covers medical education, training and board certification</li>
-                    <li>Criminal Background Check and 11-panel drug screens</li>
-                    <li>OIG and EPLS queries</li>
-                    <li>Reference Checks</li>
-                    <li>Review and go over any previous or ongoing medical practice issues</li>
-                    <li>Aid with hospital privileges</li>
-                </ul>
-                <p className="cl-faq-p">We thoroughly verify each physician’s training and background to give you the peace of mind, 
-                that a highly qualified medical provider will be at your service within a matter of time. Also, 
-                we facilitate and supply all the necessary documentation directly with the facility’s medical staff contacts. </p>
-
-                <h3 className="cl-subtitle">How do your rates match with the rest of the agencies?</h3>
-                <p className="cl-faq-p">We offer competitive rates compared to other firms in the locum tenens industry. We have 
-                high expectations from our clients and candidates as we hold ourselves to the same standard. Our candidates are 
-                highly-qualified and with that comes a higher rate. If they are any budgetary limitations, 
-                Prime Locums is small enough to negotiate directly with the medical facility.</p>
+                
 
             
             </div>

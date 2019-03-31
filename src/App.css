@@ -2,7 +2,31 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Heebo', sans-serif; */
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5rem;
+}
 
+h2{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h5{
+  font-family: 'Heebo       b ', sans-serif;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+}
 .App {
   text-align: center;
 }
@@ -29,7 +53,7 @@ font-family: 'Heebo', sans-serif; */
 }
 
 .nav-wrapper{
-  background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(255, 255, 255));
+  /* background-image: var(--lin1); */
   display: flex;
   justify-content: space-between;
   box-shadow: #282c34 1px 1px 3px;
@@ -46,7 +70,7 @@ ul#nav-mobile{
   margin: 0;
   padding: 0;
   display: flex;
-  
+  /* background-color: var(--col1); */
   align-items: center;
 }
 
@@ -60,14 +84,14 @@ ul#nav-mobile{
 
 .page-footer > .container{
   display: flex;
-  background-image: linear-gradient(to bottom right,rgb(133, 0, 0), rgb(211, 56, 0));
+  background-image: var(--lin1);
   height: 200px;
 }
 
 .container2{
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to bottom right,rgb(106, 0, 0), rgb(113, 0, 0));
+  background-color: var(--col2);
   height: 45px;
   color: white;
   justify-content: center;
@@ -78,6 +102,19 @@ ul#nav-mobile{
   display: flex;
   
   align-items: center;
+}
+
+.tabs-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  position: absolute;
+  top:92px;
+  background-color: #a4a4a4;
+  right: 120px;
+  width: 110px;
 }
 
 @keyframes App-logo-spin {

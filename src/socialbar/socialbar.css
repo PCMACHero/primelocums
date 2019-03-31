@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #b71c1c;
+    background-color: var(--col1);
     border-radius: 10px;
     position: fixed;
     z-index: 2;
