@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/primelocums/static/media/hp-bg9.b6665081.jpeg"
   },
   {
-    "revision": "22331012a3f15856d3b8ef54c2313187",
-    "url": "/primelocums/static/media/Twitter.22331012.svg"
-  },
-  {
     "revision": "f8f76b60ed73f091a6b856cdb1346a91",
     "url": "/primelocums/static/media/Facebook.f8f76b60.svg"
+  },
+  {
+    "revision": "22331012a3f15856d3b8ef54c2313187",
+    "url": "/primelocums/static/media/Twitter.22331012.svg"
   },
   {
     "revision": "8fc7a048c95e3759caeaa7e5d0661c0a",
