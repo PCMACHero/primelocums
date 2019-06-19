@@ -22,8 +22,10 @@ class Faqs extends React.Component{
                     <h1 className="lt-title">FAQs</h1>
 
 
-
-                    <Accordion styled>
+                    <div style={{display:"flex",flexDirection:"column",justifyContent:"center", alignItems:"center", margin:"15px"}}>
+                    <Accordion styled 
+                    // style={{display:"flex",flexDireccion:"column",justifyContent:"center", alignItems:"center"}}
+                    >
                         <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
                         <Icon name='dropdown' /><h3 className="cl-subtitle">Why do clients utilize Locum Tenens?</h3></Accordion.Title>
                         <Accordion.Content active={activeIndex === 0}>
@@ -33,18 +35,18 @@ class Faqs extends React.Component{
                     and effective solution.</p>
                         </Accordion.Content>
 
-                        <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
+                        <Accordion.Title active={activeIndex === 1} index={1} onClick={this.handleClick}>
                         <Icon name='dropdown' /><h3 className="cl-subtitle">How can you assure high-quality candidates?</h3></Accordion.Title>
-                        <Accordion.Content active={activeIndex === 0}>
+                        <Accordion.Content active={activeIndex === 1}>
                         <p className="cl-faq-p">Our candidates are highly-qualified and vetted appropriately to Prime Locums standards. 
                     We also provide malpractice insurance on your behalf to help minimize any risk associated with our placements. 
                     Prime Locums utilize a comprehensive screening process to ensure the provider’s experience, and client’s requirements 
                     are a match. </p>
                         </Accordion.Content>
 
-                        <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
+                        <Accordion.Title active={activeIndex === 2} index={2} onClick={this.handleClick}>
                         <Icon name='dropdown' /><h3 className="cl-subtitle">How do you verify locum tenens credentials and background?</h3></Accordion.Title>
-                        <Accordion.Content active={activeIndex === 0}>
+                        <Accordion.Content active={activeIndex === 2}>
                         <ul>
                         <li>Primary Source Verifications</li>
                         <li>AMA Profile, which covers medical education, training and board certification</li>
@@ -58,6 +60,8 @@ class Faqs extends React.Component{
 
         
                     </Accordion>
+                    </div>
+                    
 
 
 

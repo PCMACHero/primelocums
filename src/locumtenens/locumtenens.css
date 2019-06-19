@@ -16,12 +16,13 @@
     color: white;
     text-transform: uppercase;
     font-size: 2.5rem;
-    padding: 30px 10px;
-    width: 90%;
+    padding: 30px 30px;
+    /* max-width: 90%; */
     background-image: var(--lin2);
 }
 
 .lt-subtitle{
+    color: var(--lightest);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,7 +30,7 @@
     font-size: 2rem;
     text-transform: capitalize;
     border-radius: 10px;
-    background-image: linear-gradient(to  right,rgb(0, 211, 179), rgb(0, 224, 249),rgb(126, 255, 177));
+    background-image: linear-gradient(to  right,var(--tertiary),var(--tertiary));
     padding: 20px;
 
 }
@@ -56,7 +57,7 @@
 }
 
 .locum-tenens{
-    background: linear-gradient(rgba(0, 79, 198, 0.42),rgba(255, 192, 203, 0.385));
+    background-color: var(--lightest);
   
 }
 

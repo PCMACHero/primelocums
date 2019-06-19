@@ -3,7 +3,7 @@ import React from'react'
 export default class Departments extends React.Component{
     render(){
         return (<>
-            <h1>DEPARTMENTS</h1>
+            <h1 className="lt-title">DEPARTMENTS</h1>
                     <h3 className="cl-subtitle">Prime Locums staff a wide range of medical providers including Physicians and Advance Practice Clinicians.
                      Our specialties are below:</h3>
     

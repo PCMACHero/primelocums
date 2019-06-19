@@ -41,14 +41,17 @@ export default class Clients extends React.Component{
         return(
             <div className="clients">
                 <div className="cl-sec1">
-                    <div className="cl-title-box">
-                        <h1>CLIENTS</h1>
+                    
+                </div>
+
+                <div className="cl-title-box">
+                        <h1 className="lt-title">CLIENTS</h1>
                         <p>Prime Locums is devoted to finding the best physicians and advance practice 
                             clinicians that fit your organization’s needs. The four pillars below are 
                             what differentiates us from other agencies.</p>
     
                     </div>
-                </div>
+
                 <h3 className="cl-subtitle">SERVICE-DRIVEN-</h3>
                 <p className="cl-p">We strive to go above and beyond for you and exceed the organization’s goals and expectations.</p>
     

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {HashRouter} from 'react-router-dom'
 import './index.css';
 import App from './App';
+import './mediaqueries.css'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<HashRouter basename="/"><App /></HashRouter>, document.getElementById('root'));

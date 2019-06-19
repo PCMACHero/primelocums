@@ -96,13 +96,15 @@ export default class LocumTenens extends React.Component{
         return (
             <div className="locum-tenens">
                 <div className="lt-sec1">
+                
+
+                </div>
+                
                 <h2 className="lt-title">What is Locum Tenens?</h2>
                     <p className="lt-p">The term Locum Tenens means “to hold a place.” 
                     When hospitals have staffing gaps and need physicians, CRNAs, PAs, 
                     or NPs, Locum Tenens are temporarily provided to fill that void. </p>
 
-                </div>
-                
                 <h2 className="lt-title">What are the benefits of working Locum Tenens?</h2>
                 
                     <h3 className="lt-subtitle" onMouseOver={()=>{this.onHover("income")}} onMouseLeave={()=>{this.setFalse("income")}}> <div  className={`lt-icon income ${this.state.income? "animated heartBeat": ""}`}></div>  Supplement your income</h3>

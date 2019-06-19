@@ -4,8 +4,8 @@ const Contact = () => {
     return (
         <React.Fragment>
                 
-                <div className="contact">
-                <h1>CONTACT US</h1>
+                <div className="contact homepage">
+                <h1 className="lt-title">CONTACT US</h1>
                 <div className="contact-box">
                     
                     <h3>Prime Locums, LLC</h3>

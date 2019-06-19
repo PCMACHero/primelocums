@@ -18,7 +18,9 @@ export default class Nav extends React.Component{
             <div className="nav-wrapper">
               <Link to="/" className="brand-logo"><div className="logo"></div></Link>
               {/* <div className="logo">hello</div> */}
-              <ul id="nav-mobile" className="right hide-on-med-and-down blue-text">
+              <ul id="nav-mobile" className="right 
+              hide-on-med-and-down 
+              blue-text">
                 <Menu compact>
                   <Menu.Item><li><Link to="/"><div style={this.linkFontStyle} onClick={()=>{this.props.clientMenuOff()}}>Home</div></Link></li></Menu.Item>
                   <Menu.Item><li><Link to="/about"><div style={this.linkFontStyle} onClick={()=>{this.props.clientMenuOff()}}>About</div></Link></li></Menu.Item>

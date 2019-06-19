@@ -1,31 +1,75 @@
 /* 
 font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Heebo', sans-serif; */
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Abel', sans-serif; 
+*/
+
+
+:root {
+  --primary: #6b0e0e;
+  --secondary: #b22130;
+  --tertiary: #777777;
+  --light: #dddee1;
+  --lightest: #f5efef;
+  --main-txt-color: blue; 
+  --main-padding: 15px; 
+
+  /* fonts */
+
+  --font1: 'Roboto', sans-serif;
+  --font2: 'Abel', sans-serif; 
+
+  
+
+
+}
+
+body{
+  background-color: var(--lightest);
+}
+
+.cl-subtitle{
+  /* width: 90%; */
+}
+.departments-list > li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font2);
+  font-size: 2rem;
+  list-style: none;
+  height: 45px;
+  /* background-color: var(--tertiary); */
+  margin: 5px;
+  min-width: 400px;
+  color: var(--secondary);
+}
+
 h1{
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font1);
   font-size: 3.5rem;
 }
 
 h2{
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font1);
 }
 
 h3{
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font1);
+  font-size: 1.5rem;
 }
 
 h4{
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font1);
 }
 
 h5{
-  font-family: 'Heebo       b ', sans-serif;
+  font-family: var(--font1);
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3rem;
+  font-family: var(--font2);
+  font-size: 1.7rem !important;
 }
 .App {
   text-align: center;
@@ -54,6 +98,7 @@ p{
 
 .nav-wrapper{
   /* background-image: var(--lin1); */
+  background-color: white;
   display: flex;
   justify-content: space-between;
   box-shadow: #282c34 1px 1px 3px;
@@ -84,14 +129,14 @@ ul#nav-mobile{
 
 .page-footer > .container{
   display: flex;
-  background-image: var(--lin1);
+  background-color: var(--light);
   height: 200px;
 }
 
 .container2{
   display: flex;
   align-items: center;
-  background-color: var(--col2);
+  background-color: var(--tertiary);
   height: 45px;
   color: white;
   justify-content: center;

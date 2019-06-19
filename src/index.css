@@ -19,7 +19,7 @@
   
   
   --lin1: linear-gradient(to bottom right, rgb(0, 67, 121), rgb(65, 24, 92));
-  --lin2: linear-gradient(to  right,rgb(114, 0, 0), rgb(216, 40, 40),rgb(99, 18, 0));
+  --lin2: linear-gradient(to  right,#6b0e0e, #b22130,#6b0e0e);
   --lin3: linear-gradient(to  right,rgb(114, 0, 0), rgb(216, 40, 40),rgb(99, 18, 0));
 }
 
@@ -31,6 +31,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+body, html{
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 code {
