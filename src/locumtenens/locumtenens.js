@@ -138,7 +138,7 @@ export default class LocumTenens extends React.Component{
                     while earning a sizable income? Take an assignment in Colorado and explore the foothills of 
                     the Rockies. The opportunities are endless.</p>
 
-                <h2 className="lt-title">Interested in becoming a Locum Tenens?</h2>
+                <h2 className="lt-title">Interested in becoming a Locum Tenen?</h2>
 
                     <h3 className="lt-subtitle2">Fill out the form below so we can narrow your preferences and find 
                     the right position for you</h3>

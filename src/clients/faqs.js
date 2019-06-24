@@ -48,13 +48,13 @@ class Faqs extends React.Component{
                         <Icon name='dropdown' /><h3 className="cl-subtitle">How do you verify locum tenens credentials and background?</h3></Accordion.Title>
                         <Accordion.Content active={activeIndex === 2}>
                         <ul>
-                        <li>Primary Source Verifications</li>
-                        <li>AMA Profile, which covers medical education, training and board certification</li>
-                        <li>Criminal Background Check and 11-panel drug screens</li>
-                        <li>OIG and EPLS queries</li>
-                        <li>Reference Checks</li>
-                        <li>Review and go over any previous or ongoing medical practice issues</li>
-                        <li>Aid with hospital privileges</li>
+                        <li><p>Primary Source Verifications</p></li>
+                        <li><p>AMA Profile, which covers medical education, training and board certification</p></li>
+                        <li><p>Criminal Background Check and 11-panel drug screens</p></li>
+                        <li><p>OIG and EPLS queries</p></li>
+                        <li><p>Reference Checks</p></li>
+                        <li><p>Review and go over any previous or ongoing medical practice issues</p></li>
+                        <li><p>Aid with hospital privileges</p></li>
                     </ul>
                         </Accordion.Content>
 

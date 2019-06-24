@@ -52,16 +52,16 @@ export default class Clients extends React.Component{
     
                     </div>
 
-                <h3 className="cl-subtitle">SERVICE-DRIVEN-</h3>
+                <h3 className="cl-subtitle">SERVICE-DRIVEN</h3>
                 <p className="cl-p">We strive to go above and beyond for you and exceed the organization’s goals and expectations.</p>
     
-                <h3 className="cl-subtitle">PERFORMANCE-</h3>
+                <h3 className="cl-subtitle">PERFORMANCE</h3>
                 <p className="cl-p">We are results-oriented driven by our passion and commitment to providing the best physician to perform the highest level of patient care.</p>
     
-                <h3 className="cl-subtitle">COMMITMENT-</h3>
+                <h3 className="cl-subtitle">COMMITMENT</h3>
                 <p className="cl-p">We are committed to delivering the best fit candidate for the organization, by understanding the challenges of the unique situation(s).</p>
     
-                <h3 className="cl-subtitle">COMPETITIVE-</h3>
+                <h3 className="cl-subtitle">COMPETITIVE</h3>
                 <p className="cl-p">We are loyal to our clients and ensure the service and talent we provide are at the best rate possible.</p>
     
     

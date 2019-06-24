@@ -8,7 +8,7 @@ const About = ()=>{
                 
                 
             </div>
-            <h1 className="lt-title">ABOUT PRIME LOCUS</h1>
+            <h1 className="lt-title">ABOUT PRIME LOCUMS</h1>
             <p className="about-text flow-text">Prime Locums offers staffing 
                 solutions by finding the best medical providers for leading 
                 healthcare facilities. We are a smaller agency, which gives us 
