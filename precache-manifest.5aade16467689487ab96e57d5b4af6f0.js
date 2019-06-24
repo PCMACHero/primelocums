@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/primelocums/static/media/Twitter.22331012.svg"
   },
   {
-    "revision": "f8f76b60ed73f091a6b856cdb1346a91",
-    "url": "/primelocums/static/media/Facebook.f8f76b60.svg"
-  },
-  {
     "revision": "8fc7a048c95e3759caeaa7e5d0661c0a",
     "url": "/primelocums/static/media/LinkedIn.8fc7a048.svg"
+  },
+  {
+    "revision": "f8f76b60ed73f091a6b856cdb1346a91",
+    "url": "/primelocums/static/media/Facebook.f8f76b60.svg"
   },
   {
     "revision": "4bc804254831288c1f2c52797c996342",
