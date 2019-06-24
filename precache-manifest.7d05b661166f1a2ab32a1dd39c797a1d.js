@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "acbfd723f5c8c0da0b61",
+    "revision": "05d4aca06c34a1ac3772",
     "url": "/primelocums/static/css/main.f142b88b.chunk.css"
   },
   {
-    "revision": "acbfd723f5c8c0da0b61",
-    "url": "/primelocums/static/js/main.acbfd723.chunk.js"
+    "revision": "05d4aca06c34a1ac3772",
+    "url": "/primelocums/static/js/main.05d4aca0.chunk.js"
   },
   {
     "revision": "778cae2af8c525819091",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/primelocums/static/media/hp-bg7.3b072dc6.jpeg"
   },
   {
-    "revision": "d7dd1d193e30e10118b43f97dff6be63",
+    "revision": "6f2b57db444a92d263a77f1ec7a4df62",
     "url": "/primelocums/index.html"
   }
 ];
