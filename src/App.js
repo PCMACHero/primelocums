@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Route, Link, Redirect} from 'react-router-dom'
+import {HashRouter, Route, Link, Redirect} from 'react-router-dom'
 import 'animate.css'
 // import { Dropdown, Menu } from 'semantic-ui-react'
 import './App.css';
@@ -71,7 +71,7 @@ class App extends Component {
     
     return (
      
-        <BrowserRouter>
+        <HashRouter>
           <React.Fragment>
           <Nav clientMenu={this.clientMenu} clientMenuOff={this.clientMenuOff} isOpen={this.state.dropDownOpen}/>
           {this.state.clientRedirect? <Redirect to={`/${this.state.clientRedirect}`} /> : null}
@@ -88,7 +88,7 @@ class App extends Component {
           <Footer/>
           </React.Fragment>
           
-        </BrowserRouter>
+        </HashRouter>
     );
   }
 }
