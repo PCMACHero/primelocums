@@ -1,39 +1,23 @@
 import React from 'react'
-import {
-  Button,
-  Container,
-  Divider,
-  Grid,
-  Header,
-  Icon,
-  Image,
-  List,
-  Menu,
-  Responsive,
-  Segment,
-  Sidebar,
-  Visibility,
-} from 'semantic-ui-react'
+import email from '../assets/images/email.svg'
+import phone from '../assets/images/phone.svg'
+import SocialBar from '../socialbar/socialbar'
 
 const Footer = ()=>{
     return (
         <footer className="page-footer">
           <div className="container">
-            <div className="row">
-              <div className="">
-                <h5 className="">Footer Content</h5>
-                <p className="">You can use rows and columns here to organize your footer content.</p>
+            <div className="foot-stuff" style={{width:"100%", display:'flex', justifyContent:'center', alignItems:"center"}}>
+              <div className="thing" style={{padding:'10px'}}>
+              <a href = "mailto: info@plocums.com" className="linky" style={{display:'flex', justifyContent:'center', alignItems:"center"}}><img src={email} />Email</a>
               </div>
-              <div className="">
-                <h5 className="">Links</h5>
-                <ul className="foot-list">
-                  <li><a className="" href="#!">Link 1</a></li>
-                  <li><a className="" href="#!">Link 2</a></li>
-                  <li><a className="" href="#!">Link 3</a></li>
-                  <li><a className="" href="#!">Link 4</a></li>
-                </ul>
+              <div className="thing" style={{padding:'10px'}}>
+              <a href="tel:702-714-1421" className="linky" style={{display:'flex', justifyContent:'center', alignItems:"center"}}><img src={phone} />Call</a>
               </div>
+              <SocialBar/>
             </div>
+            
+
           </div>
           <div className="footer-copyright">
             <div className="container2">

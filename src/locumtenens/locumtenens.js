@@ -1,6 +1,6 @@
 import React from 'react'
 import {Dropdown, Form, Button, TextArea} from 'semantic-ui-react'
-import './locumtenens.css'
+
 
 export default class LocumTenens extends React.Component{
     state= {
@@ -143,7 +143,7 @@ export default class LocumTenens extends React.Component{
                     <h3 className="lt-subtitle2">Fill out the form below so we can narrow your preferences and find 
                     the right position for you</h3>
 
-                <Form action="" className="lt-form">
+                {/* <Form action="" className="lt-form">
                     
                     <Form.Field>
                     <label htmlFor="fname">First*</label>
@@ -198,7 +198,12 @@ export default class LocumTenens extends React.Component{
 
                     <Button type='submit'>SUBMIT</Button>
                     
-                </Form>
+                </Form> */}
+                <a target="_blank" href="https://recruit.zoho.com/recruit/WebFormServeServlet?rid=6fc6d3bd06a155290077c20d6e7c16e490804ac8f404276906e49f129e1d0197gid594ac43e746d3231383086edb242b59a03c6b254a5586ba34c44d572eb1acc0d"
+                >
+                    <button className="hp-btn">Go To Form</button>
+                    </a>
+                    <div className="spacer" style={{margin:'64px'}}></div>
             </div>
         )
     }

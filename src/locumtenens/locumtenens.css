@@ -32,6 +32,7 @@
     border-radius: 10px;
     background-image: linear-gradient(to  right,var(--tertiary),var(--tertiary));
     padding: 20px;
+    box-shadow: 2px 2px 5px 1px rgb(78, 78, 78);
 
 }
 .lt-subtitle2{
@@ -110,7 +111,8 @@
     }
     .lt-sec1{
         background-position: center;
-        height: 700px;
-        background-image: linear-gradient(rgb(255, 255, 255),rgb(59, 0, 118));
+        height: 40vh;
+        /* height: 700px; */
+        /* background-image: linear-gradient(rgb(255, 255, 255),rgb(59, 0, 118)); */
     }
   }

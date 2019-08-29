@@ -9,14 +9,14 @@ const About = ()=>{
                 
             </div>
             <h1 className="lt-title">ABOUT PRIME LOCUMS</h1>
-            <p className="about-text flow-text">Prime Locums offers staffing 
+            <p className="lt-p flow-text">Prime Locums offers staffing 
                 solutions by finding the best medical providers for leading 
                 healthcare facilities. We are a smaller agency, which gives us 
                 the ability to provide the highest quality of service to our 
                 candidates and clients effectively. Our staff has over 75 years 
                 of experience providing healthcare staffing services. </p>
 
-                <p className="about-text flow-text">
+                <p className="lt-p flow-text">
                 Prime Locums is well known for the service we put forth and the 
                 quality of our medical professionals. As a follower of the National 
                 Association of Locum Tenens Organizations (NALTO), we pride ourselves
@@ -57,7 +57,7 @@ const About = ()=>{
             </div>
             <div className="mission-statement">
             <h2 className="mission-title lt-title">MISSION STATEMENT</h2>
-            <p className="mission-text">
+            <p className="lt-p">
             Our mission is to staff innovative healthcare providers committed to providing 
             the highest level of patient care. 
             </p>

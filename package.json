@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://pcmachero.github.io/primelocums",
   "dependencies": {
+    "animate.css": "^3.7.2",
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",

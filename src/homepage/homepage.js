@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import '../homepage/homepage.css';
-import SocialBar from '../socialbar/socialbar';
+
 
 export default class HomePage extends React.Component{
     render(){
@@ -9,11 +9,11 @@ export default class HomePage extends React.Component{
             
             <React.Fragment>
                 <div className="homepage">
-                    <SocialBar/>
+                    
                     <div className="hp-sec1">
-                        <h1 id="hp-title" style={{color:"white"}}><span style={{color:"#b22130"}}>PRIME</span > LOCUMS</h1>
+                        <h1 id="hp-title" className="animated fadeInLeft slow" style={{color:"white"}}><span style={{color:"#b22130"}}>PRIME</span > LOCUMS</h1>
                         <div className="hp-btn-container">
-                            <Link to="/jobsearch"><button className="hp-btn">JOB SEARCH</button></Link>
+                            <a target="_blank" href="https://recruit.zohopublic.com/recruit/Portal.na?iframe=false&digest=Os20Eg%40T5Wis.pOdnJHzs3GAUnkE7bVo.a85bxdBEmQ-"><button className="hp-btn">JOB SEARCH</button></a>
                             
                             <Link to="/clients"><button className="hp-btn">CLIENTS</button></Link>
                             

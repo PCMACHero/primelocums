@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Link, Redirect} from 'react-router-dom'
-import { Dropdown, Menu } from 'semantic-ui-react'
+import 'animate.css'
+// import { Dropdown, Menu } from 'semantic-ui-react'
 import './App.css';
 // import 'materialize-css/dist/css/materialize.min.css'
 import HomePage from './homepage/homepage';
@@ -9,6 +10,8 @@ import JobSearch from './jobsearch/jobsearch';
 import About from './about/about';
 import Footer from './footer/footer';
 import LocumTenens from './locumtenens/locumtenens';
+import './locumtenens/locumtenens.css'
+
 import Departments from './clients/departments';
 import Faqs from './clients/faqs';
 import Nav from './nav/nav';
@@ -68,8 +71,8 @@ class App extends Component {
     
     return (
      
-        <React.Fragment>
-          
+        <BrowserRouter>
+          <React.Fragment>
           <Nav clientMenu={this.clientMenu} clientMenuOff={this.clientMenuOff} isOpen={this.state.dropDownOpen}/>
           {this.state.clientRedirect? <Redirect to={`/${this.state.clientRedirect}`} /> : null}
           <Route path={`/`} exact component={HomePage}/>
@@ -83,7 +86,9 @@ class App extends Component {
           <Route path={`/contact`} exact component={Contact}/>
 
           <Footer/>
-        </React.Fragment>
+          </React.Fragment>
+          
+        </BrowserRouter>
     );
   }
 }

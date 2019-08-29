@@ -11,6 +11,7 @@ font-family: 'Heebo', sans-serif; */
 } */
 
 .homepage{
+    width: 100%;
     min-height: 800px;
     display: flex;
     justify-content: center;
@@ -65,6 +66,12 @@ font-family: 'Heebo', sans-serif; */
     font-size: 5.5em;
     justify-content: center;
     align-items: center;
+    text-shadow: 1px 1px 1px rgb(158, 158, 158);
+    
+}
+#hp-title > span{
+    
+    text-shadow: none;
 }
 
 .hp-subtext{
@@ -77,7 +84,8 @@ font-family: 'Heebo', sans-serif; */
 }
 
 .hp-btn-container{
-    background-color: rgba(0, 2, 53, 0.18);
+    /* background-color: rgba(0, 2, 53, 0.18); */
+    border: none;
     /* border-radius: 3px; */
     /* height: 100px;
     width: 400px; */
@@ -88,6 +96,7 @@ font-family: 'Heebo', sans-serif; */
 }
 
 .hp-btn{
+    border: none;
     width: 230px;
     height: 100px;
     font-family: var(--font1);
@@ -95,7 +104,8 @@ font-family: 'Heebo', sans-serif; */
     flex-shrink: 0;
     background-color: var(--secondary);
     color: white;
-    border-right: solid rgba(49, 39, 39, 0.678) 1px;
+    margin: 1px;
+    /* border-right: solid rgba(49, 39, 39, 0.678) 1px; */
 
     
 }
@@ -131,7 +141,7 @@ font-family: 'Heebo', sans-serif; */
 
 @media only screen and (max-width: 992px){
     .hp-btn-container{
-        background-color: rgba(0, 0, 0, 0.18);
+        /* background-color: rgba(0, 0, 0, 0.18); */
         border-radius: 3px;
         /* height: 100px;
         width: 400px; */

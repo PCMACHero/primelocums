@@ -5,8 +5,8 @@ const Contact = () => {
         <React.Fragment>
                 
                 <div className="contact homepage">
-                <h1 className="lt-title">CONTACT US</h1>
-                <div className="contact-box">
+                <h1 className="lt-title animated slideInDown slow">CONTACT US</h1>
+                <div className="contact-box animated fadeInLeft slow">
                     
                     <h3>Prime Locums, LLC</h3>
                     <h3>4730 S. Fort Apache Rd.</h3>

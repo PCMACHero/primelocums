@@ -1,14 +1,14 @@
 .social-bar{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
     border-radius: 10px;
-    position: fixed;
-    z-index: 2;
+    /* position: fixed; */
+    /* z-index: 2;
     right: 20px;
-    top:100px;
+    top:100px; */
 }
 
 .icon{
@@ -20,6 +20,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin: 8px 8px;
+    cursor: pointer;
     
     
 }
@@ -35,7 +36,7 @@
 }
 
 @media only screen and (max-width: 992px){
-    .social-bar{
+    /* .social-bar{
         display: none;
-    }
+    } */
 }

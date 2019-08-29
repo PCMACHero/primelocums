@@ -35,7 +35,8 @@ body {
 }
 body, html{
   width: 100vw;
-  overflow-x: hidden;
+  min-width: 320px;
+  /* overflow-x: hidden; */
 }
 
 code {
