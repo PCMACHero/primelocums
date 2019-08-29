@@ -71,7 +71,7 @@ class App extends Component {
     
     return (
      
-        <HashRouter>
+        <HashRouter basename='/'>
           <React.Fragment>
           <Nav clientMenu={this.clientMenu} clientMenuOff={this.clientMenuOff} isOpen={this.state.dropDownOpen}/>
           {this.state.clientRedirect? <Redirect to={`/${this.state.clientRedirect}`} /> : null}

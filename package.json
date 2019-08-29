@@ -2,7 +2,7 @@
   "name": "primelocums",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pcmachero.github.io/primelocums",
+  "homepage": "http://jolly-mirzakhani-469910.netlify.com/",
   "dependencies": {
     "animate.css": "^3.7.2",
     "gh-pages": "^2.0.1",
