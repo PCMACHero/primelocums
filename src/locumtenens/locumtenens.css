@@ -51,7 +51,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: 
-    url('../assets/images/hp-bg7.jpeg');
+    url('../assets/images/bg9.jpg');
+    background-position: center;
     height: 500px;
     width: 100vw;
 
