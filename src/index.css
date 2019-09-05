@@ -31,8 +31,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
   
 }
+
+#root{
+  min-height: 100%;
+}
+
 body, html{
   width: 100vw;
   min-width: 320px;
